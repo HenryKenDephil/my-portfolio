@@ -12,6 +12,7 @@ const Home = () => {
     };
     return (
         <section id="home">
+            <hr />
             <div className="home__text-wrapper">
                 <h1>
                     Hello, I'm Henry Kennedy,
@@ -34,12 +35,14 @@ const Home = () => {
                 transform: 'translateX(0px)'
             }}
             >
+            
                 <div className="home__contact-me">
                     <button onClick={handleNavigateToContactMePage}>Open to Work, Contact Me</button>
                 </div>
             </Animate>
 
         </section>
+        
     );
 }
 
