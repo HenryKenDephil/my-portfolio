@@ -3,7 +3,7 @@ import { BsInfoCircleFill } from 'react-icons/bs';
 import PageHeaderContent from "../../components/pageHeaderContent";
 import { Animate } from 'react-simple-animate';
 import './styles.scss';
-import {FaDev, FaDatabase, FaPython } from 'react-icons/fa';
+import { FaDev, FaDatabase, FaPython } from 'react-icons/fa';
 
 
 const personalDetails = [
@@ -45,7 +45,7 @@ const About = () => {
                         duration={1.5}
                         display={1}
                         start={{
-                            transform: 'translateY(50px)'
+                            transform: 'translateY(550px)'
                         }}
 
                         end={{
@@ -63,7 +63,7 @@ const About = () => {
                         duration={1.5}
                         display={1}
                         start={{
-                            transform: 'translateY(50px)'
+                            transform: 'translateY(500px)'
                         }}
 
                         end={{
@@ -85,17 +85,33 @@ const About = () => {
                     </Animate>
                 </div>
                 <div className='about__content__servicesWrapper'>
-                    <div>
-                        <FaDev size={60} color="var(--yellow-theme-main-color)"/>
-                    </div>
-                    <div>
-                        <FaDatabase size={60} color="var(--yellow-theme-main-color)"/>   
-                    </div>
+                <Animate
+                        play
+                        duration={1.5}
+                        display={1}
+                        start={{
+                            transform: 'translateY(600px)'
+                        }}
 
-                    <div>
-                        <FaPython size={60} color="var(--yellow-theme-main-color)"/>   
+                        end={{
+                            transform: 'translateX(0px)'
+                        }}
+                    >
+                    <div className='about__content__servicesWrapper__innerContent'>
+                        <div>
+                            <FaDev size={60} color="var(--yellow-theme-main-color)" />
+                        </div>
+                        <div>
+                            <FaDatabase size={60} color="var(--yellow-theme-main-color)" />
+                        </div>
+
+                        <div>
+                            <FaPython size={60} color="var(--yellow-theme-main-color)" />
+                        </div>
                     </div>
-                    
+                </Animate>
+
+
                 </div>
 
 
