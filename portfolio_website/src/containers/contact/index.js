@@ -44,7 +44,7 @@ const Contact = () => {
                     }}
                 >
                     <h3 className='contact__content__header-text'>
-                        leave me a message
+                        write me an email
                     </h3>
                 </Animate>
 

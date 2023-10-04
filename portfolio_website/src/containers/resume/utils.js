@@ -29,7 +29,12 @@ export const data = {
     education: [
         {
             title: 'Front End Development with ReactJs',
-            institution: 'Andela & Pluralsight', 
+            institution: 'Andela & Pluralsight :Ongoing', 
+        },
+
+        {
+            title: 'Security Analyst',
+            institution: 'Cyber Shujaa :Ongoing',
         },
 
         {

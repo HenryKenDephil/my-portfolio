@@ -17,9 +17,9 @@ const Home = () => {
                 <h1>
                     Hello, I'm Henry Kennedy,
                     <br />
-                    A Software & Security
+                    A Software Engineer & 
                     <br />
-                    Engineer
+                    Security Analyst
 
                 </h1>
             </div>
