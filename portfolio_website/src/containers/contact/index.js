@@ -6,17 +6,20 @@ import { Animate } from 'react-simple-animate';
 import './styles.scss'
 
 
-const Contact = () => {
+export const Contact = () => {
 
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_od2035i', 'template_vvsp3fa', form.current, 'ul-9M_V6Z5ZklO6kZ')
             .then((result) => {
                 console.log(result.text);
-            }, (error) => {
+                console.log("message sent successfully");
+            }, 
+            
+            (error) => {
                 console.log(error.text);
             });
     };
